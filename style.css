@@ -1,4 +1,4 @@
-/* COnfiguration par defaut */
+/* Default configuration */
 *{
     padding: 0;
     border: 0;
@@ -12,13 +12,14 @@ body{
     height: 100vh;
     overflow: hidden;
 }
-/* Implementation des grides */
+/* grid implementation */
 .container{
     width: 50%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(8, 1fr); /* optimised way to separate the chessboard into 8 equal sizes.*/
+    grid-template-rows: repeat(8, 1fr);
 }
+/* customising the chess squares */
 .black{
     width: 10rem;
     height: 10rem;
