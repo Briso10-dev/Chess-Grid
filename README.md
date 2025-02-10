@@ -16,5 +16,4 @@ A project to design a Chessboard for any new beginner on CSS grids
 
 ## Authors
 
-- [@Briso10-dev](https://github.com/Briso10-dev)
-
+- [Seraphin Brice Kouam](https://github.com/Briso10-dev)
